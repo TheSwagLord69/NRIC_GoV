@@ -8,36 +8,38 @@ Machine (Powered On) capable of running Python 3.9.0
 
 ### GENERATE
 
-Allows the generation of valid NRIC/FIN numbers with a custom defined range.
+> Allows the generation of **algorithmically valid** NRIC/FIN numbers with a custom defined range.
+
 View below for example usage.
 
 #### Generate with a Singular inital alphabet
-Generates a range of NRIC numbers (8400000 to 9799999 in this case) starting with the character "S" and prints the results to the terminal
+Generates a range of valid NRIC numbers (8400000 to 9799999 in this case) starting with the character "S" and prints the results to the terminal
 ```bash
 python NRIC_GoV.py -M G -I S -R 8400000 9799999
 ```
 
 #### Generate with Mulitple inital alphabet
-Generates a range of NRIC numbers (0000000 to 9999999 in this case) starting with the character "S", "T", "M", "F" and "G" and prints the results to the terminal
+Generates a range of valid NRIC numbers (0000000 to 9999999 in this case) starting with the character "S", "T", "M", "F" and "G" and prints the results to the terminal
 ```bash
 python NRIC_GoV.py -m generate -i s t m f g -R 0000000 9999999
 ```
 
 #### Generate Output to a file in the current working directory
-Generates a range of NRIC numbers (0974760 to 0986177 in this case) starting with the character "T" and "G" to a file named "yeahscience.txt" and prints the result to the terminal
+Generates a range of valid NRIC numbers (0974760 to 0986177 in this case) starting with the character "T" and "G" to a file named "yeahscience.txt" and prints the result to the terminal
 ```bash
 python NRIC_GoV.py -M g -I t G -R 0974760 0986177 -o yeahscience.txt
 ```
 
 #### Generate Output to a file in a specific directory
-Generates a range of NRIC numbers (0000000 to 0000999 in this case) starting with the character "S" and "F" to a file named "validnrics.txt" to the "C:\Users\mynameisjeff\Desktop\" directory and prints the result to the terminal
+Generates a range of valid NRIC numbers (0000000 to 0000999 in this case) starting with the character "S" and "F" to a file named "validnrics.txt" to the "C:\Users\mynameisjeff\Desktop\" directory and prints the result to the terminal
 ```bash
 python NRIC_GoV.py -M g -i S F -R 0000000 0000999 -o "C:\Users\mynameisjeff\Desktop\validnrics.txt"
 ```
 
 ### VALIDATE
 
-Allows the validation of NRIC/FIN numbers.
+> Allows the **algorithmic validation** of NRIC/FIN numbers.
+
 View below for example usage.
 
 #### Validate Single NRIC/FIN number
