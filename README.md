@@ -1,5 +1,5 @@
-# NRIC_GoV
-Generate a custom range or validate NRIC/FIN number(s).
+# NRIC/FIN Generation or Validation
+NRIC_GoV.py is a tool capable of generating a custom range of NRIC/FIN number(s) or validating a list of NRIC/FIN number(s).
 
 ## Requirements
 Machine (Powered On) capable of running Python 3.9.0
