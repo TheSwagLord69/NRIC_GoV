@@ -1,3 +1,11 @@
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![GitHub release](https://img.shields.io/github/release/TheSwagLord69/NRIC_GoV)](https://github.com/TheSwagLord69/NRIC_GoV/releases/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/TheSwagLord69/NRIC_GoV/graphs/commit-activity)
+[![GitHub commits](https://badgen.net/github/commits/TheSwagLord69/NRIC_GoV)](https://github.com/TheSwagLord69/NRIC_GoV)
+[![GitHub latest commit](https://badgen.net/github/last-commit/TheSwagLord69/NRIC_GoV)](https://github.com/TheSwagLord69/NRIC_GoV/commit/)
+[![Github all releases](https://img.shields.io/github/downloads/TheSwagLord69/NRIC_GoV/total.svg)](https://github.com/TheSwagLord69/NRIC_GoV/releases/)
+
 # NRIC/FIN Generation or Validation
 
 **NRIC_GoV.py** is a tool capable of generating a _custom range_ of NRIC/FIN number(s) or validating a _list_ of NRIC/FIN number(s).
