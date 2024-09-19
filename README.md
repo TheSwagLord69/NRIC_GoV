@@ -6,9 +6,9 @@
 [![GitHub latest commit](https://badgen.net/github/last-commit/TheSwagLord69/NRIC_GoV)](https://github.com/TheSwagLord69/NRIC_GoV/commit/)
 [![Github all releases](https://img.shields.io/github/downloads/TheSwagLord69/NRIC_GoV/total.svg)](https://github.com/TheSwagLord69/NRIC_GoV/releases/)
 
-# NRIC/FIN Generation or Validation
+# Singaporean NRIC/FIN Generation or Validation
 
-**NRIC_GoV.py** is a tool capable of generating a _custom range_ of NRIC/FIN number(s) or validating a _list_ of NRIC/FIN number(s).
+**NRIC_GoV.py** is a tool capable of generating a _custom range_ of Singapore NRIC/FIN number(s) or validating a _list_ of NRIC/FIN number(s).
 
 ## Requirements
 
